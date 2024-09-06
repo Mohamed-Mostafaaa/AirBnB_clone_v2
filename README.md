@@ -15,9 +15,8 @@ The project currently only implements the back-end console.
 
 ## About
 
-This is the First Project towards our AirBnB clone project at [ALX](alxafrica.com). Done by [Mohamed](https://github.com/Mohamed-Mostafaaa) and [Eman](https://github.com/emanelkamel)
+This is the First Project towards our AirBnB clone project at [ALX](alxafrica.com). Done by [Mohamed](https://github.com/Mohamed-Mostafaaa)
 
 This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration
 
 - **Mohamed Mostafa** <[Mohamed-Mostafaaa](https://github.com/Mohamed-Mostafaaa)>
-- **Eman Elkamel** <[emanelkamel](https://github.com/emanelkamel)>
