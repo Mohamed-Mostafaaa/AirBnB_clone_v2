@@ -35,6 +35,7 @@ class HBNBCommand(cmd.Cmd):
     def default(self, arg):
         """Default behavior for cmd module when input is invalid"""
         dict_adv = {
+            "create": self.do_create,
             "all": self.do_all,
             "show": self.do_show,
             "destroy": self.do_destroy,
@@ -43,7 +44,7 @@ class HBNBCommand(cmd.Cmd):
         }
         match = re.search(r"\.", arg)
         if match is not None:
-            argl = [arg[: match.span()[0]], arg[match.span()[1]:]]
+            argl = [arg[: match.span()[0]], arg[match.span()[1] :]]
             match = re.search(r"\((.*?)\)", argl[1])
             if match is not None:
                 command = [argl[1][: match.span()[0]], match.group()[1:-1]]
